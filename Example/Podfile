@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ICDataService_Example' do
+  pod 'ICDataService', :path => '../'
+
+  target 'ICDataService_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
